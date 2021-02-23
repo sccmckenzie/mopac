@@ -16,3 +16,5 @@ Suggests:
     lubridate,
     tibble,
     sift
+URL: https://github.com/sccmckenzie/mopac
+BugReports: https://github.com/sccmckenzie/mopac/issues
