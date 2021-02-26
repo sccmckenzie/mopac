@@ -20,7 +20,7 @@ raw1 <- map_dfr(.x = 1:2, .f = ~ {
            time = time_datum[[..1]] + dseconds(time))
 })
 
-raw2 <- map_dfr(.x = 3:7, .f = ~ {N
+raw2 <- map_dfr(.x = 3:7, .f = ~ {
   read_excel("data-raw/mopac.xlsx", sheet = ..1) %>%
     mutate(day = wday(..1, label = TRUE),
            time = sprintf("%.2f", time),

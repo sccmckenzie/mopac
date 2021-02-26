@@ -1,4 +1,4 @@
-day,time,commerical,color,type,make,model
+day,time,commercial,color,type,make,model
 Sun,2020-05-17T22:27:00Z,FALSE,Blue,Truck,Ford,F-150
 Sun,2020-05-17T22:27:02Z,FALSE,Grey,Sedan,Honda,Civic
 Sun,2020-05-17T22:27:02Z,FALSE,White,SUV,Lexus,LX
