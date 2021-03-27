@@ -1,6 +1,6 @@
 Package: mopac
 Type: Package
-Title: Collection of datasets inspired by Texas Loop 1 ("Mopac").
+Title: Collection of datasets pertaining to Loop 1 "Mopac".
 Version: 0.1.0
 Author: Scott McKenzie <sccmckenzie@gmail.com>
 Maintainer: Scott McKenzie <sccmckenzie@gmail.com>
@@ -15,6 +15,9 @@ Suggests:
     dplyr,
     lubridate,
     tibble,
-    sift
+    sift,
+    readr,
+    hms
 URL: https://github.com/sccmckenzie/mopac
 BugReports: https://github.com/sccmckenzie/mopac/issues
+RoxygenNote: 7.1.1

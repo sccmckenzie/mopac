@@ -11,17 +11,41 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
+library(tibble)
+library(readr)
 ```
 
 # mopac <img src='man/figures/logo.png' align="right" height="250" />
 <!-- badges: start -->
 <!-- badges: end -->
 
-mopac provides real & simulated datasets based on vehicular observations from Loop 1 (a.k.a "Mopac") in Austin, Tx.
+mopac provides a collection of datasets pertaining to Loop 1 "Mopac" located in Austin, Texas.
 
 ## Installation
 
 ```r
 devtools::install_github("sccmckenzie/mopac")
+```
+## Datasets
+
+* `rush_hour`: Time series of real traffic observations, collected for this package.
+```{r}
+mopac::rush_hour
+```
+
+* `express`: Simulated express lane records, shares a similar structure as rush_hour.
+```{r}
+mopac::express
+```
+
+* `rates`: Express lane rates for a typical weekday.
+```{r}
+mopac::rates
+```
+
+* `exits`: Information for all Mopac exits.
+```{r}
+mopac::exits
 ```
 
