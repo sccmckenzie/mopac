@@ -2,10 +2,9 @@ Package: mopac
 Type: Package
 Title: Collection of datasets pertaining to Loop 1 "Mopac".
 Version: 0.1.0
-Author: Scott McKenzie <sccmckenzie@gmail.com>
-Maintainer: Scott McKenzie <sccmckenzie@gmail.com>
+Authors@R: person("Scott", "McKenzie", email = "sccmckenzie@gmail.com",
+  role = c("aut", "cre"))
 Description: Collection of datasets pertaining to Loop 1 "Mopac".
-License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
@@ -20,3 +19,4 @@ Suggests:
 URL: https://github.com/sccmckenzie/mopac
 BugReports: https://github.com/sccmckenzie/mopac/issues
 RoxygenNote: 7.1.1
+License: MIT + file LICENSE
