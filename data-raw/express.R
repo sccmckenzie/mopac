@@ -228,3 +228,4 @@ express <- express %>%
   select(!v_id)
 
 use_data(express, overwrite = TRUE)
+write_csv(express, here::here("inst", "extdata", "express.csv"))

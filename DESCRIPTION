@@ -1,6 +1,6 @@
 Package: mopac
 Type: Package
-Title: Collection of datasets pertaining to Loop 1 "Mopac".
+Title: Collection of datasets pertaining to Loop 1 "Mopac"
 Version: 0.1.0
 Authors@R: person("Scott", "McKenzie", email = "sccmckenzie@gmail.com",
   role = c("aut", "cre"))
