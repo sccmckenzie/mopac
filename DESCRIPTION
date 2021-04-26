@@ -14,7 +14,6 @@ Suggests:
     dplyr,
     lubridate,
     tibble,
-    sift,
     readr,
     hms
 URL: https://github.com/sccmckenzie/mopac
