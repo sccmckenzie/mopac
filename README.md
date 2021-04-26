@@ -4,6 +4,8 @@
 # mopac <img src='man/figures/logo.png' align="right" height="250" />
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/sccmckenzie/mopac/workflows/R-CMD-check/badge.svg)](https://github.com/sccmckenzie/mopac/actions)
 <!-- badges: end -->
 
 mopac provides a collection of datasets pertaining to Loop 1 “Mopac”
@@ -46,16 +48,16 @@ mopac::express
 #> # A tibble: 13,032 x 6
 #>    direction time                plate    make       model    color 
 #>    <chr>     <dttm>              <chr>    <chr>      <chr>    <chr> 
-#>  1 North     2020-05-20 05:00:33 DZR-9238 Mercedes   S-Series Black 
-#>  2 North     2020-05-20 05:01:13 GRG-6684 Nissan     Altima   White 
-#>  3 North     2020-05-20 05:03:47 QZS-9962 Mazda      6        Grey  
-#>  4 North     2020-05-20 05:04:54 OHK-6273 BMW        i1       White 
-#>  5 North     2020-05-20 05:10:41 EAS-7585 Ford       F-250    Blue  
-#>  6 North     2020-05-20 05:13:53 OKP-1047 Dodge      Journey  White 
-#>  7 North     2020-05-20 05:13:55 HNN-3587 Volkswagen Passat   Grey  
-#>  8 North     2020-05-20 05:15:59 EWL-4779 Toyota     Venza    Silver
-#>  9 North     2020-05-20 05:16:01 YVH-7047 GMC        Safari   White 
-#> 10 North     2020-05-20 05:18:16 DLU-6632 Nissan     Titan    White 
+#>  1 North     2020-05-20 05:00:33 DZR-4059 Mercedes   S-Series Black 
+#>  2 North     2020-05-20 05:01:13 GRG-4300 Nissan     Altima   Grey  
+#>  3 North     2020-05-20 05:03:47 QZS-2886 Mazda      6        White 
+#>  4 North     2020-05-20 05:04:54 OHK-3972 BMW        i1       White 
+#>  5 North     2020-05-20 05:10:41 EAS-1671 Ford       F-250    Silver
+#>  6 North     2020-05-20 05:13:53 OKP-7589 Dodge      Journey  White 
+#>  7 North     2020-05-20 05:13:55 HNN-1298 Volkswagen Passat   Grey  
+#>  8 North     2020-05-20 05:15:59 EWL-6179 Toyota     Venza    Grey  
+#>  9 North     2020-05-20 05:16:01 YVH-4374 GMC        Safari   White 
+#> 10 North     2020-05-20 05:18:16 DLU-6055 Nissan     Titan    Blue  
 #> # ... with 13,022 more rows
 ```
 
@@ -66,16 +68,16 @@ mopac::rates
 #> # A tibble: 25 x 3
 #>    direction time    rate
 #>    <chr>     <time> <dbl>
-#>  1 north     05:00   0.3 
-#>  2 north     15:00   0.6 
-#>  3 north     15:30   1.75
-#>  4 north     16:00   1.61
-#>  5 north     16:30   2.59
-#>  6 north     17:00   3.74
-#>  7 north     17:30   4.65
-#>  8 north     18:00   5.1 
-#>  9 north     18:30   2.44
-#> 10 north     19:00   0.3 
+#>  1 North     05:00   0.3 
+#>  2 North     15:00   0.6 
+#>  3 North     15:30   1.75
+#>  4 North     16:00   1.61
+#>  5 North     16:30   2.59
+#>  6 North     17:00   3.74
+#>  7 North     17:30   4.65
+#>  8 North     18:00   5.1 
+#>  9 North     18:30   2.44
+#> 10 North     19:00   0.3 
 #> # ... with 15 more rows
 ```
 
