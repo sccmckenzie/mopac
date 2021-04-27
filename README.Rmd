@@ -19,11 +19,19 @@ library(readr)
 # mopac <img src='man/figures/logo.png' align="right" height="250" />
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/sccmckenzie/mopac/workflows/R-CMD-check/badge.svg)](https://github.com/sccmckenzie/mopac/actions)
+[![CRAN status](https://www.r-pkg.org/badges/version/mopac)](https://CRAN.R-project.org/package=mopac)
 <!-- badges: end -->
 
-mopac provides a collection of datasets pertaining to Loop 1 "Mopac" located in Austin, Texas.
+mopac provides a collection of datasets pertaining to Loop 1 "Mopac" in Austin, TX.
 
 ## Installation
+
+Install the released version from CRAN with:
+
+```r
+install.packages("mopac")
+```
+Or install the development version from Github:
 
 ```r
 devtools::install_github("sccmckenzie/mopac")
