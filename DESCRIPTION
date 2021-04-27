@@ -4,7 +4,7 @@ Title: Collection of Datasets Pertaining to Loop 1 "Mopac"
 Version: 0.1.0
 Authors@R: person("Scott", "McKenzie", email = "sccmckenzie@gmail.com",
   role = c("aut", "cre"))
-Description: mopac provides real & simulated datasets containing time-series traffic observations
+Description: Provides real & simulated datasets containing time-series traffic observations
     and additional information pertaining to Loop 1 "Mopac" located in Austin, Texas.
 Encoding: UTF-8
 LazyData: true
